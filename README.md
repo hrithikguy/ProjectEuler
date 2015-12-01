@@ -8,4 +8,4 @@ Problems solved so far:
 
 
 
-1 - 10, 14, 21, 39
+1 - 11, 14, 21, 39
