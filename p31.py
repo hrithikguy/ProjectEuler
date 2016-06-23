@@ -1,6 +1,6 @@
 import math
 
-amount_we_want = 5
+amount_we_want = 200
 
 output = 0
 for i1 in range(0, amount_we_want/200 + 1):
