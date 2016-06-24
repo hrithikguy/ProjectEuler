@@ -7,4 +7,4 @@ My solutions to selected Project Euler problems
 Problems solved so far:
 
 
-1 - 11, 14-15, 21, 23-24, 27-33, 39
+1 - 11, 14-15, 21, 23-24, 27-37, 39
