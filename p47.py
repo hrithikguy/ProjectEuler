@@ -25,19 +25,11 @@ prime_lists = []
 prime_lists.append([0])
 prime_lists.append([1])
 prime_lists.append([2])
-prime_lists.append([3])
-prime_lists.append([2])
-prime_lists.append([5])
-prime_lists.append([2,3])
 
 memo[0] = 0
 memo[1] = 0
 memo[2] = 1
-memo[3] = 1
-memo[4] = 1
-memo[5] = 1
-memo[6] = 2
-for i in range(7, size):
+for i in range(3, size):
 	for j in range(2, int(math.sqrt(i))+2):
 		if i % j == 0:
 			if j not in prime_lists[i/j]:
@@ -56,38 +48,10 @@ for i in range(7, size):
 	if is_prime(i):
 		memo[i] = 1
 		prime_lists.append([i])
-	#print memo
-	#print prime_lists
 
-#print memo
-#print prime_lists
-
-# array = []
-# def prime_count(n):
-# 	output = 0	
-# 	for i in range(2, n):
-# 		if n % i == 0:
-# 			output += 1
-# 			while n % i == 0:
-# 				n = n/i
-# 	return output
-
-# for n in range(1, size):
-# 	array.append(prime_count(n))
-
-#print "done"
-find = [3, 3, 3]
-find = np.asarray(find)
 memo = np.asarray(memo)
 memostring = ""
 for i in memo:
 	memostring += str(int(i))
 findstring = "4444"
-
-#print memostring
-#print memostring.index("333")
 print memostring.index(findstring)
-# for n in range(1, size-2):
-# 	if memo[n] == 4 and memo[n+1] == 4 and memo[n+2] == 4 and memo[n+3] == 4:
-# 		print n
-# 		#print n+2, prime_count(n+2)
