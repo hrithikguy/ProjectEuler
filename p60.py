@@ -68,22 +68,6 @@ for i in quadruple_list:
 						quintuple_list.add((i[0], i[1], i[2], i[3], j))
 
 print "quintuples done"
-	# cur_prime_list2 = []
-	# for j in cur_prime_list:
-	# 	for k in cur_prime_list:
-	# 		if is_prime(int(str(j) + str(k))) == 1 and is_prime(int(str(k) + str(j))) == 1 and k not in cur_prime_list2:
-	# 			cur_prime_list2.append(k)
-	# cur_prime_list3 = []
-	# for j in cur_prime_list2:
-	# 	for k in cur_prime_list2:
-	# 		for l in cur_prime_list2:
-	# 			for m in cur_prime_list2:
-	# 				if is_prime(int(str(j) + str(k))) == 1 and is_prime(int(str(k) + str(j))) == 1 and is_prime(int(str(j) + str(l))) == 1:
-	# 					if is_prime(int(str(l) + str(j))) == 1 and is_prime(int(str(k) + str(l))) == 1 and is_prime(int(str(l) + str(k))) == 1:
-	# 						if is_prime(int(str(j) + str(m))) == 1 and is_prime(int(str(m) + str(j))) == 1 and is_prime(int(str(k) + str(m))) == 1:
-	# 							if is_prime(int(str(m) + str(k))) == 1 and is_prime(int(str(l) + str(m))) == 1 and is_prime(int(str(m) + str(l))) == 1:
-	# 								cur_prime_list3.append([j,k,l,m])
-
 print quintuple_list
 
 
